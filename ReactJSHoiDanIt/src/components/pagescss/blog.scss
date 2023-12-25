@@ -1,0 +1,16 @@
+.blog-container{
+    text-align: left;
+    margin: 50px 0 0 0;
+    .blog-card{
+        border: 1px solid black;
+        .title{
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+            font-weight: 600;
+            .titledelete{
+                cursor: pointer;
+            }
+        }
+    }
+}

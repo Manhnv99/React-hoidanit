@@ -1,0 +1,24 @@
+.navbar1{
+    display: flex;
+    width: 100%;
+    background-color: #747474;
+    a{
+        text-decoration: none;
+        font-size: 17px;
+        color: #fff;
+        display: block;
+        padding: 20px 30px;
+    }
+}
+.item-nav{
+    color: #fff;
+    cursor: pointer;
+}
+.item-nav:hover{
+    color: black;
+    background-color: #02a96a;
+}
+.active{
+    color: black;
+    background-color: #02a96a;
+}

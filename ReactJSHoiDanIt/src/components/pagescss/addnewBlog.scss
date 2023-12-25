@@ -1,0 +1,24 @@
+.newBlog__container{
+    text-align: center;
+    border: 1px solid black;
+    .newBlog__css{
+        margin: 10px 0 10px 0;
+        p{
+            
+            font-size: 20px;
+        }
+        input{
+            width: 90%;
+        }
+    }
+}
+
+@keyframes dropDown {
+    0%{
+        transform: translateY(-50%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+

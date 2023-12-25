@@ -1,0 +1,27 @@
+.ring{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.rotate{
+    z-index: 5;
+    padding: 100px;
+    border: 5px solid #6a5af9;
+    border-radius: 50%;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    animation: roll 1s infinite;
+}
+@keyframes roll {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

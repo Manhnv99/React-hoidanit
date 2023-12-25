@@ -1,0 +1,28 @@
+.pencilIcon{
+    color: #fec61e;
+    cursor: pointer;
+}
+.trashIcon{
+    color: #f45549;
+    cursor: pointer;
+}
+button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #f45549;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.container{
+    input{
+        height: 40px;
+        border: 1px solid black;
+        margin: 0 20px;
+        border-radius: 10px;
+    }
+    button:hover{
+        opacity: 0.8;
+    }
+}
